@@ -69,6 +69,10 @@
  *   });
  * </file>
  * </example>
+ * 
+ * On example, the plural "=0" and "=1" will reference to recipients.length, ignoring the offset parameter, and 
+ * the "one" and "other" will consider the offset parameter.
+ * 
  */
 var $$MessageFormatFactory = ['$parse', '$locale', '$sce', '$exceptionHandler', function $$messageFormat(
                    $parse,   $locale,   $sce,   $exceptionHandler) {
